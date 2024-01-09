@@ -616,7 +616,7 @@ header .follow a:hover{
     margin-bottom: 1.5rem;
 }
 
-/* .footer{
+ .footer{
     margin-top: 2rem;
     font-size: 2rem;
     padding:2.5rem;
@@ -627,9 +627,28 @@ header .follow a:hover{
 
 .footer span{
     color:var(--main-color);
-} */
+
+}
+
+.portfolio-item {
+    display: inline-block; 
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+.image img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.hover-items {
+    display:inline; 
+}
 
 
+.portfolio-item:hover .hover-items {
+    display: block;
+}
 
 
 
